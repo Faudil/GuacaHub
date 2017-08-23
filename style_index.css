@@ -1,0 +1,66 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+body {
+  background-color: white;
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+
+  font-size: 20px;
+}
+
+.demo-card-wide.mdl-card {
+  margin: auto;
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+#getStartedCard > .mdl-card__title {
+  color: #fff;
+  width: 100%;
+  height: 173px;
+  background: url('picture/guacamole.jpg') center / cover;
+}
+#getStartedCard > .mdl-card__menu {
+  color: #fff;
+}
+
+#opCard > .mdl-card__title {
+  color: #fff;
+  width: 100%;
+  height: 173px;
+  background: url('picture/open_guacamole.jpg') center / cover;
+}
+#opCard > .mdl-card__menu {
+  color: #fff;
+}
+
+#nachosCard > .mdl-card__title {
+  color: #fff;
+  width: 100%;
+  height: 173px;
+  background: url('picture/nachos_plate.jpg') center / cover;
+}
+
+#nachosCard > .mdl-card__menu {
+  color: #fff;
+}
+
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:auto;
+  align-items: center;
+  margin-right:auto;
+  
+}
+
+
+.mdl-demo section.section--center {
+  max-width: 1220px;
+}

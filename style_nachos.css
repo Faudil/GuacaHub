@@ -1,0 +1,53 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+body {
+  background-color: white;
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: system, -apple-system, '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+
+  font-size: 20px;
+}
+
+.demo-card-wide.mdl-card {
+  margin: auto;
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+#contributeCard > .mdl-card__title {
+  color: #fff;
+  width: 100%;
+  height: 173px;
+  background: url('picture/guacamole_and_nachos.jpg') center / cover;
+}
+#helpCard > .mdl-card__menu {
+  color: #fff;
+}
+
+#helpCard > .mdl-card__title {
+  color: #fff;
+  width: 100%;
+  height: 173px;
+  background: url('picture/avocado.jpg') center / cover;
+}
+#contributeCard > .mdl-card__menu {
+  color: #fff;
+}
+
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:auto;
+  align-items: center;
+  margin-right:auto;
+}
+
+.mdl-demo section.section--center {
+  max-width: 1220px;
+}
